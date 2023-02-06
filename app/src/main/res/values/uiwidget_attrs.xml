@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DownloadProgressView">
+        <!-- 进度条背景 -->
+        <attr name="dpv_bg" format="color" />
+        <!-- 已有进度条背景 -->
+        <attr name="dpv_progress_bg" format="color" />
+        <!-- 百分比字体颜色 -->
+        <attr name="dpv_percentage_text_color" format="color" />
+        <!-- 上层百分比字体颜色 -->
+        <attr name="dpv_percentage_text_color2" format="color" />
+        <attr name="dpv_percentage_text_size" format="integer|float|dimension|reference" />
+        <!-- 当前进度值 -->
+        <attr name="dpv_progress" format="integer" />
+        <!-- 最大进度值 -->
+        <attr name="dpv_max_progress" format="integer" />
+        <!-- 控制模式 -->
+        <attr name="dpv_control_mode" format="enum">
+            <enum name="normal" value="1" />
+            <enum name="touch" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
